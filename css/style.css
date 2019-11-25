@@ -1,3 +1,8 @@
 body {
     text-align: center;
+    background: rgb(205,69,124);
+    background: -moz-radial-gradient(circle, rgba(205,69,124,1) 13%, rgba(223,164,32,1) 41%, rgba(156,226,94,1) 78%, rgba(32,214,203,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(205,69,124,1) 13%, rgba(223,164,32,1) 41%, rgba(156,226,94,1) 78%, rgba(32,214,203,1) 100%);
+    background: radial-gradient(circle, rgba(205,69,124,1) 13%, rgba(223,164,32,1) 41%, rgba(156,226,94,1) 78%, rgba(32,214,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cd457c",endColorstr="#20d6cb",GradientType=1);
 }
